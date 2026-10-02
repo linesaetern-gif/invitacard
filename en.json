@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "invita — Digital invitations & RSVP",
+    "description": "Beautiful digital invitations with effortless RSVPs in Lao, Thai and English.",
+    "dashboardTitle": "Host dashboard"
+  },
+  "common": {
+    "madeWith": "Made with invita",
+    "optional": "optional",
+    "required": "required",
+    "demoData": "Demo data",
+    "backHome": "Back to home",
+    "notFound": "Page not found"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "landing": {
+    "eyebrow": "Digital invitations & RSVP",
+    "title": "Invite beautifully. Hear back instantly.",
+    "subtitle": "invita turns your event into a polished invitation that guests can answer in a single tap, in Lao, Thai or English.",
+    "ctaSample": "See a sample invitation",
+    "ctaDashboard": "Open host dashboard",
+    "features": {
+      "oneClick": {
+        "title": "1-click RSVP",
+        "body": "Guests tap Attending or Not attending. No sign-up and no passwords to remember."
+      },
+      "personal": {
+        "title": "Personal, private links",
+        "body": "Every guest gets a unique link, and invitations can be protected with a password."
+      },
+      "live": {
+        "title": "Real-time dashboard",
+        "body": "Watch responses, headcount and dietary needs update the moment guests answer."
+      }
+    }
+  },
+  "invitation": {
+    "youAreInvited": "You are invited",
+    "when": "When",
+    "where": "Where",
+    "getDirections": "Get directions on Google Maps",
+    "addToCalendar": "Add to calendar",
+    "googleCalendar": "Google Calendar",
+    "appleCalendar": "Apple Calendar",
+    "schedule": "Schedule",
+    "mapTitle": "Map to the venue",
+    "playMusic": "Play music",
+    "pauseMusic": "Pause music",
+    "videoTeaser": "Video teaser",
+    "inviteOnlyTitle": "This is a private invitation",
+    "inviteOnlyBody": "RSVP is only available through the personal link the hosts sent you. Please open that link to respond."
+  },
+  "rsvp": {
+    "title": "Will you join us?",
+    "greeting": "Hello, {name}",
+    "subtitle": "Tap one button to let us know. It takes a second and needs no sign-up.",
+    "deadline": "Please reply by {date}",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Full name",
+    "choiceLabel": "Your answer",
+    "attend": "Yes, I will attend",
+    "decline": "Sorry, I can't make it",
+    "saving": "Saving…",
+    "thanksAttending": "Wonderful, we can't wait to see you!",
+    "thanksDeclined": "We will miss you. Thank you for letting us know.",
+    "statusAttending": "You are attending",
+    "statusDeclined": "You are not attending",
+    "detailsTitle": "A few details to help us plan",
+    "detailsHint": "Fields marked * are required.",
+    "partySize": "How many guests, including you?",
+    "partySizeHint": "Up to {max} people in total.",
+    "decrease": "Decrease number of guests",
+    "increase": "Increase number of guests",
+    "messageLabel": "Message for the hosts",
+    "messagePlaceholder": "Write a note (optional)",
+    "saveDetails": "Save details",
+    "savingDetails": "Saving…",
+    "detailsSaved": "Details saved. Thank you!",
+    "changeResponse": "Change my response",
+    "selectPlaceholder": "Select…",
+    "requiredField": "required",
+    "errors": {
+      "required": "Please fill in this field.",
+      "invalid": "Please check this value.",
+      "generic": "Something went wrong. Please try again.",
+      "closed": "RSVP for this event is now closed.",
+      "invalidLink": "This personal link is not valid."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "live": "Real-time",
+    "liveHint": "Updates the moment a guest responds",
+    "simulate": "Simulate an RSVP",
+    "autoSimulate": "Auto-simulate",
+    "demoNote": "Showing demo data. Connect Supabase to see real responses.",
+    "stats": {
+      "totalInvited": "Total invited",
+      "attending": "Attending",
+      "declined": "Declined",
+      "pending": "Pending",
+      "headcount": "Expected headcount",
+      "responseRate": "Response rate"
+    },
+    "hints": {
+      "totalInvited": "guests on the list",
+      "attending": "{percent} of invited",
+      "declined": "{percent} of invited",
+      "pending": "awaiting a reply"
+    },
+    "response": {
+      "title": "Response progress",
+      "summary": "{responded} of {total} guests have responded",
+      "headcountLine": "Expected headcount: {count} people",
+      "chartLabel": "Guests by response status"
+    },
+    "groups": {
+      "title": "Responses by group",
+      "group": "Group",
+      "total": "Total",
+      "vip": "VIP",
+      "family": "Family",
+      "friends": "Friends",
+      "colleagues": "Colleagues"
+    },
+    "recent": {
+      "title": "Recent responses",
+      "empty": "No responses yet.",
+      "attending": "Attending",
+      "declined": "Declined"
+    }
+  }
+}
